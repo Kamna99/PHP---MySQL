@@ -1,0 +1,54 @@
+.bg{
+    background:url(../img/staff.jpg) ; 
+    opacity: 0.9;
+    background-size: cover;
+    width: 100%;
+    height:100vh;
+}
+
+.form-container{
+    padding: 20px 20px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.7)); 
+    width:100%;
+    margin: 30vh 0;
+    -webkit-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.9);
+    -moz-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.9);
+    box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.9);
+}
+form{
+ color: #ffeb95;
+    font-weight: 600;
+    font-size: 20px;
+}
+.btn:link,active{
+    height:47px;
+    background-color: #fff;
+    color:#000;
+    font-weight: 600;
+    padding-top:10px;
+    width:30%;
+    background-image: linear-gradient(to bottom ,rgba(0,0,0,0) 80% ,rgba(0,0,0,1));
+    transition: background-color 0.2s,  color 0.5s;
+}
+.btn-logout{
+    display: inline-block;
+    color: #fff;
+    width:30%;
+    margin-left: 80px;
+    height: 48px;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #00a5dd;
+    background-image: linear-gradient(to bottom ,rgba(0,0,0,0) 80% ,rgba(0,0,0,1));
+    transition: background-color 0.2s,  color 0.2s;
+}
+
+.btn:hover{
+    background-color: rgba(14, 166, 217, 0.7);
+    color:white;
+    font-weight: 600;
+    width:30%;
+}
